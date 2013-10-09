@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="CountDown.js"></script>
+  <script type="text/javascript">
+    $(function(){
+            
+            var counter = new countDown.Counter(10, 10, 25, 2);
+            counter.startTimer();
+        });
+  </script>
+</head>
+
+<body>
+  <span id="countdown" >hello</span>
+</body>
+</html>
